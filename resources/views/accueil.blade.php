@@ -11,13 +11,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../public/css/main.css" />
 		<noscript><link rel="stylesheet" href="../public/css/noscript.css" /></noscript>
-		<script src="../public/js/jquery.min.js"></script>
-		<script src="../public/js/jquery.scrollex.min.js"></script>
-		<script src="../public/js/jquery.scrolly.min.js"></script>
-		<script src="../public/js/browser.min.js"></script>
-		<script src="../public/js/breakpoints.min.js"></script>
-		<script src="../public/js/util.js"></script>
-		<script src="../public/js/main.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -173,7 +166,13 @@
 						</section>
 						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
-sdsdsds
+					<script src="../public/js/jquery.min.js"></script>
+					<script src="../public/js/jquery.scrollex.min.js"></script>
+					<script src="../public/js/jquery.scrolly.min.js"></script>
+					<script src="../public/js/browser.min.js"></script>
+					<script src="../public/js/breakpoints.min.js"></script>
+					<script src="../public/js/util.js"></script>
+					<script src="../public/js/main.js"></script>
 			</div>
 	</body>
 </html>
