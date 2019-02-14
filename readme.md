@@ -6,4 +6,4 @@
  * this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp
  * ----------------------------------------------------------------------------
 
-![alt beerware](https://fr.wikipedia.org/wiki/Beerware#/media/File:BeerWare_Logo.svg)
+![alt beerware](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/BeerWare_Logo.svg/1280px-BeerWare_Logo.svg.png)
