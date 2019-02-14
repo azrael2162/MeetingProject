@@ -11,6 +11,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../public/css/main.css" />
 		<noscript><link rel="stylesheet" href="../public/css/noscript.css" /></noscript>
+		<script src="../public/js/jquery.min.js"></script>
+		<script src="../public/js/jquery.scrollex.min.js"></script>
+		<script src="../public/js/jquery.scrolly.min.js"></script>
+		<script src="../public/js/browser.min.js"></script>
+		<script src="../public/js/breakpoints.min.js"></script>
+		<script src="../public/js/util.js"></script>
+		<script src="../public/js/main.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -27,10 +34,10 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li><a href="#intro" class="active">Introduction</a></li>
-							<li><a href="#first">First Section</a></li>
-							<li><a href="#second">Second Section</a></li>
-							<li><a href="#cta">Get Started</a></li>
+							<li><a href="{{url('accueil')}}" class="active">Accueil</a></li>
+							<li><a href="{{url('connexion')}}">Connexion</a></li>
+							<li><a href="{{url('inscription')}}">Inscription</a></li>
+							<li><a href="{{url('contact')}}">Contact</a></li>
 						</ul>
 					</nav>
 
@@ -83,7 +90,6 @@
 									</ul>
 								</footer>
 							</section>
-
 						<!-- Second Section -->
 							<section id="second" class="main special">
 								<header class="major">
@@ -169,15 +175,5 @@
 					</footer>
 
 			</div>
-
-		<!-- Scripts -->
-			<script src="../public/js/jquery.min.js"></script>
-			<script src="../public/js/jquery.scrollex.min.js"></script>
-			<script src="../public/js/jquery.scrolly.min.js"></script>
-			<script src="../public/js/browser.min.js"></script>
-			<script src="../public/js/breakpoints.min.js"></script>
-			<script src="../public/js/util.js"></script>
-			<script src="../public/js/main.js"></script>
-
 	</body>
 </html>
