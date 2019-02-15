@@ -1,13 +1,15 @@
 #------------------------------------------------------------
 #        Script MySQL.
-#------------------------------------------------------------
-drop database if exists meetingproject;
-create database meetingproject;
-use meetingproject; 
+#-----------------------------------------------------------
+DROP DATABASE IF EXISTS meetingproject;
+CREATE DATABASE meetingproject;
+USE meetingproject;
+
 #------------------------------------------------------------
 # Table: group_privileges
 #------------------------------------------------------------
 
+DROP TABLE IF EXISTS group_privileges;
 CREATE TABLE group_privileges(
         id_group   Int  Auto_increment  NOT NULL ,
         group_type Varchar (10)
@@ -18,7 +20,7 @@ CREATE TABLE group_privileges(
 #------------------------------------------------------------
 # Table: project
 #------------------------------------------------------------
-
+DROP TABLE IF EXISTS project;
 CREATE TABLE project(
         id_project         Int  Auto_increment  NOT NULL ,
         project_name       Varchar (20) ,
@@ -32,7 +34,7 @@ CREATE TABLE project(
 #------------------------------------------------------------
 # Table: comment
 #------------------------------------------------------------
-
+DROP TABLE IF EXISTS comment;
 CREATE TABLE comment(
         id_comment      Int  Auto_increment  NOT NULL ,
         comment_date    Date ,
@@ -45,6 +47,7 @@ CREATE TABLE comment(
 # Table: email
 #------------------------------------------------------------
 
+DROP TABLE IF EXISTS email;
 CREATE TABLE email(
         id_email      Int  Auto_increment  NOT NULL ,
         email_object  Varchar (50) ,
@@ -57,6 +60,7 @@ CREATE TABLE email(
 # Table: user
 #------------------------------------------------------------
 
+DROP TABLE IF EXISTS user;
 CREATE TABLE user(
         id_user             Int  Auto_increment  NOT NULL ,
         user_name           Varchar (10) ,
@@ -85,7 +89,7 @@ CREATE TABLE user(
 #------------------------------------------------------------
 # Table: friend
 #------------------------------------------------------------
-
+DROP TABLE IF EXISTS friend;
 CREATE TABLE friend(
         id_user        Int NOT NULL ,
         id_user_friend Int NOT NULL ,
