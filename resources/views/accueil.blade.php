@@ -1,23 +1,12 @@
 <!DOCTYPE HTML>
-<!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Stellar by HTML5 UP</title>
+		<title>MeetingProject</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../public/css/main.css" />
 		<noscript><link rel="stylesheet" href="../public/css/noscript.css" /></noscript>
-		<script src="../public/js/jquery.min.js"></script>
-		<script src="../public/js/jquery.scrollex.min.js"></script>
-		<script src="../public/js/jquery.scrolly.min.js"></script>
-		<script src="../public/js/browser.min.js"></script>
-		<script src="../public/js/breakpoints.min.js"></script>
-		<script src="../public/js/util.js"></script>
-		<script src="../public/js/main.js"></script>
+
 	</head>
 	<body class="is-preload">
 
@@ -30,7 +19,6 @@
 						<h1>MeetingProject</h1>
 						<p>Quand le savoir et l'idée se croisent.</p>
 					</header>
-
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
@@ -173,7 +161,13 @@
 						</section>
 						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
-sdsdsds
+					<script src="../public/js/jquery.min.js"></script>
+					<script src="../public/js/jquery.scrollex.min.js"></script>
+					<script src="../public/js/jquery.scrolly.min.js"></script>
+					<script src="../public/js/browser.min.js"></script>
+					<script src="../public/js/breakpoints.min.js"></script>
+					<script src="../public/js/util.js"></script>
+					<script src="../public/js/main.js"></script>
 			</div>
 	</body>
 </html>
