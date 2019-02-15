@@ -6,7 +6,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../public/css/main.css" />
 		<noscript><link rel="stylesheet" href="../public/css/noscript.css" /></noscript>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 532e2fe0b88f017c1a2425c30d761e8dd99506ee
 	</head>
 	<body class="is-preload">
 
